@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&family=Roboto+Slab:wght@300&family=Roboto:wght@500&family=Sansita+Swashed&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Slab', 'Open Sans', 'Sansita Swashed';
+}
+
+::selection{
+  background-color: transparent;
+  color: turquoise;
+}
+
+::-webkit-scrollbar{
+  width: 0.2rem;
+  
+}
+
+::-webkit-scrollbar -thumb{
+  background-color: #ffffff39;
+  width: 0.1rem;
+  border-radius: 1rem;
+}
